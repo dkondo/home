@@ -1,5 +1,6 @@
 #!/bin/zsh
 
+
 # PATH
 
 export SPARK_HOME="/Users/dkondo/spark-2.0.0-bin-hadoop2.7"

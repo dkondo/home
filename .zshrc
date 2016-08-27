@@ -50,7 +50,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting z h)
 
 # User configuration
 
@@ -58,6 +58,8 @@ plugins=(git)
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+
+. /Users/dkondo/.oh-my-zsh/plugins/z/z.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -85,9 +87,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 
-ZSH_THEME=pygmalion
+# ZSH_THEME=pygmalion
 
-plugins=(git colored-man colorize github jira vagrant virtualenv pip python  brew osx zsh-syntax-highlighting)
 
 # Add env.sh
 source ~/env.sh

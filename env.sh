@@ -6,7 +6,7 @@
 export SPARK_HOME="/Users/dkondo/spark-2.0.0-bin-hadoop2.7"
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home"
 export
-PATH="/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dkondo/bin:$SPARK_HOME/bin:/Users/dkondo/anaconda2/bin"
+PATH="/usr/local/mysql/bin:/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dkondo/bin:$SPARK_HOME/bin:/Users/dkondo/anaconda2/bin"
 
 
 export EDITOR='emacs -nw'
